@@ -1,0 +1,1102 @@
+🚀 Loading Account Logic for [art]...
+
+░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓█▓▒░░▒▓██████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░  ░▒▓████████▓▒░░▒▓██████▓▒░░▒▓█▓▒░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░   ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+
+
+           ✦彡  ANASTASIA ULTRA NOVA VER 彡✦
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠾⠏⠉⠀⠀⠀⠀⠀⠀⠈⠉⠳⢶⣄⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠁⠀⠀⠀⠸⠷⠀⠀⠀⠀⠀⠘⠛⠃⠙⢿⣄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⡿⢱⡟⠓⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣶⡄⢻⡆⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⣧⡈⠙⠛⠁⠀⢀⣀⡀⠀⠀⠀⣀⣀⠀⠀⠁⠀⠈⣿⡀
+⠀⠀⠀⠀⠀⠀⠀⠸⢍⣻⣦⣄⡀⠀⠹⠭⠟⠀⠀⠸⣿⣿⠇⠀⣠⠶⣦⣿⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⣧⣈⣻⡷⢶⣦⣀⣀⠀⠀⠀⠀⠀⠀⠈⢛⢡⡟⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣳⠃⡹⠳⡤⡴⡏⠙⠛⣻⠶⠶⢤⡤⠤⠶⣿⠁⠀
+⠀⠀⠀⢀⣠⣤⣶⠶⠋⣵⠋⢰⠇⣼⣱⠁⢹⠗⢲⡟⠦⣤⠼⠛⠦⠞⠃⠀⠀
+⠀⢀⣴⡿⠋⠁⢠⣰⠞⠁⣰⣯⣼⠁⡏⠀⢸⠀⠸⡇⠀⢸⠀⠀⠀⠀⠀⠀⠀
+⠀⣼⠋⢀⣠⡴⣟⢁⣠⡞⢻⡿⠁⢰⡇⠀⢸⣄⠀⢷⠀⠸⣆⠀⠀⠀⠀⠀⠀
+⢸⢇⣴⡿⠋⠄⣼⡿⠁⠀⣾⠁⠀⠸⡇⠀⠀⢿⡄⠘⣆⠀⠹⣦⠀⠀⠀⠀⠀
+⢠⣾⠏⠀⠀⢠⣿⠀⠀⠀⣿⡄⠀⠀⢿⠀⠀⠈⣷⡄⠹⣧⠀⠙⢷⣄⠀⠀⠀
+⢸⡟⠀⠀⠀⢸⣿⠀⠀⠀⢹⣧⠀⠀⠸⣷⠀⠀⠸⣷⡀⠹⣦⠀⠀⠻⣧⠀⠀
+⢸⡇⠀⠀⠀⠀⣿⡆⠀⠀⠀⢻⣧⠀⠀⢻⡆⠀⠀⠹⣧⠀⠹⣇⠀⠀⢻⣧⠀
+⢸⣇⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠹⣧⠀⠘⣿⠀⠀⠀⣿⡇⠀⢿⣄⠀⠀⣿⡇
+⢈⣿⡄⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠈⠣⡀⢿⡆⠀⠀⣿⠃⠀⠘⣿⡀⠀⢸⡇
+⠀⠘⠃⠀⠀⠀⠀⠀⠈⢿⣧⠀⠀⠀⠀⠀⢸⣷⢀⡼⠃⠀⠀⠀⣿⡇⠀⢸⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣧⡀⠀⠀⠀⢸⣿⠈⠀⠀⠀⠀⠀⣿⡇⠀⡾⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡄⠀⠀⣸⡏⠀⠀⠀⠀⠀⣸⡟⠀⠀⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀⠀⢀⣴⠟⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠃⠀⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+[38;2;140;120;255mℹ Connecting to WhatsApp...[0m
+✅ [GROUP EV] listener attached
+✅ [MSG EV] listener attached
+[38;2;255;255;0m✓ CONNECTED! [art][0m
+🛸 Plugin loaded: مسح_جهات
+🛸 Plugin loaded: مسح_الجهات
+🛸 Plugin loaded: مسح_جهة
+🛸 Plugin loaded: cleancontact
+🛸 Plugin loaded: contact
+✅ [ADMIN MONITOR] registered successfully
+🛸 Plugin loaded: مراقب
+🛸 Plugin loaded: مراقبة
+🛸 Plugin loaded: monitor
+🛸 Plugin loaded: فحص
+🛸 Plugin loaded: فحص_اجهزة
+🛸 Plugin loaded: فحص_قروب
+🛸 Plugin loaded: كشف_قروب
+🛸 Plugin loaded: checkdev
+🛸 Plugin loaded: رابط
+✅ [RAQIB] مراقب الأعضاء مفعّل (كل 5 دقائق)
+🛸 Plugin loaded: راقب
+🛸 Plugin loaded: watch
+🛸 Plugin loaded: مراقب_اعضاء
+🛸 Plugin loaded: jid
+🛸 Plugin loaded: اعدادات
+🛸 Plugin loaded: انهاء
+🛸 Plugin loaded: تيك
+🛸 Plugin loaded: تيكطول
+🛸 Plugin loaded: تيكفوري
+[33m ⚠ Skipped (no execute): /home/zaikabdou1/Art/accounts/art/plugins/settings/كتابة-state.js [0m
+🛸 Plugin loaded: كتابة
+🔌 All plugins loaded successfully
+🔌 PLUGINS LOADED & READY.
+
+──────────────────────────────────────────────────
+ ⚠️ SECURITY ALERT (440) 
+ Unknown party attempting to access session file.
+ Bot is preventing access.
+ If not you, please revoke session immediately.
+──────────────────────────────────────────────────
+
+═══ بدء التشغيل: 18:26:50 ═══
+🚀 Loading Account Logic for [art]...
+
+░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓█▓▒░░▒▓██████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░  ░▒▓████████▓▒░░▒▓██████▓▒░░▒▓█▓▒░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░   ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+
+
+           ✦彡  ANASTASIA ULTRA NOVA VER 彡✦
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠾⠏⠉⠀⠀⠀⠀⠀⠀⠈⠉⠳⢶⣄⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠁⠀⠀⠀⠸⠷⠀⠀⠀⠀⠀⠘⠛⠃⠙⢿⣄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⡿⢱⡟⠓⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣶⡄⢻⡆⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⣧⡈⠙⠛⠁⠀⢀⣀⡀⠀⠀⠀⣀⣀⠀⠀⠁⠀⠈⣿⡀
+⠀⠀⠀⠀⠀⠀⠀⠸⢍⣻⣦⣄⡀⠀⠹⠭⠟⠀⠀⠸⣿⣿⠇⠀⣠⠶⣦⣿⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⣧⣈⣻⡷⢶⣦⣀⣀⠀⠀⠀⠀⠀⠀⠈⢛⢡⡟⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣳⠃⡹⠳⡤⡴⡏⠙⠛⣻⠶⠶⢤⡤⠤⠶⣿⠁⠀
+⠀⠀⠀⢀⣠⣤⣶⠶⠋⣵⠋⢰⠇⣼⣱⠁⢹⠗⢲⡟⠦⣤⠼⠛⠦⠞⠃⠀⠀
+⠀⢀⣴⡿⠋⠁⢠⣰⠞⠁⣰⣯⣼⠁⡏⠀⢸⠀⠸⡇⠀⢸⠀⠀⠀⠀⠀⠀⠀
+⠀⣼⠋⢀⣠⡴⣟⢁⣠⡞⢻⡿⠁⢰⡇⠀⢸⣄⠀⢷⠀⠸⣆⠀⠀⠀⠀⠀⠀
+⢸⢇⣴⡿⠋⠄⣼⡿⠁⠀⣾⠁⠀⠸⡇⠀⠀⢿⡄⠘⣆⠀⠹⣦⠀⠀⠀⠀⠀
+⢠⣾⠏⠀⠀⢠⣿⠀⠀⠀⣿⡄⠀⠀⢿⠀⠀⠈⣷⡄⠹⣧⠀⠙⢷⣄⠀⠀⠀
+⢸⡟⠀⠀⠀⢸⣿⠀⠀⠀⢹⣧⠀⠀⠸⣷⠀⠀⠸⣷⡀⠹⣦⠀⠀⠻⣧⠀⠀
+⢸⡇⠀⠀⠀⠀⣿⡆⠀⠀⠀⢻⣧⠀⠀⢻⡆⠀⠀⠹⣧⠀⠹⣇⠀⠀⢻⣧⠀
+⢸⣇⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠹⣧⠀⠘⣿⠀⠀⠀⣿⡇⠀⢿⣄⠀⠀⣿⡇
+⢈⣿⡄⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠈⠣⡀⢿⡆⠀⠀⣿⠃⠀⠘⣿⡀⠀⢸⡇
+⠀⠘⠃⠀⠀⠀⠀⠀⠈⢿⣧⠀⠀⠀⠀⠀⢸⣷⢀⡼⠃⠀⠀⠀⣿⡇⠀⢸⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣧⡀⠀⠀⠀⢸⣿⠈⠀⠀⠀⠀⠀⣿⡇⠀⡾⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡄⠀⠀⣸⡏⠀⠀⠀⠀⠀⣸⡟⠀⠀⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀⠀⢀⣴⠟⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠃⠀⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+[38;2;140;120;255mℹ Connecting to WhatsApp...[0m
+[38;2;255;255;0m✓ CONNECTED! [art][0m
+🛸 Plugin loaded: مسح_جهات
+🛸 Plugin loaded: مسح_الجهات
+🛸 Plugin loaded: مسح_جهة
+🛸 Plugin loaded: cleancontact
+🛸 Plugin loaded: contact
+✅ [ADMIN MONITOR] registered successfully
+🛸 Plugin loaded: مراقب
+🛸 Plugin loaded: مراقبة
+🛸 Plugin loaded: monitor
+🛸 Plugin loaded: فحص
+🛸 Plugin loaded: فحص_اجهزة
+🛸 Plugin loaded: فحص_قروب
+🛸 Plugin loaded: كشف_قروب
+🛸 Plugin loaded: checkdev
+🛸 Plugin loaded: رابط
+✅ [RAQIB] مراقب الأعضاء مفعّل (كل 5 دقائق)
+🛸 Plugin loaded: راقب
+🛸 Plugin loaded: watch
+🛸 Plugin loaded: مراقب_اعضاء
+🛸 Plugin loaded: jid
+🛸 Plugin loaded: اعدادات
+🛸 Plugin loaded: انهاء
+🛸 Plugin loaded: تيك
+🛸 Plugin loaded: تيكطول
+🛸 Plugin loaded: تيكفوري
+[33m ⚠ Skipped (no execute): /home/zaikabdou1/Art/accounts/art/plugins/settings/كتابة-state.js [0m
+🛸 Plugin loaded: كتابة
+🔌 All plugins loaded successfully
+🔌 PLUGINS LOADED & READY.
+✅ [GROUP EV] listener attached
+✅ [MSG EV] listener attached
+Closing session: SessionEntry {
+  _chains: {
+    'BbJ1X9D2lMYRkSdC6YFcfNc6zpDC2G6e+rSm+yr+YJc9': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 b2 75 5f d0 f6 94 c6 11 91 27 42 e9 81 5c 7c d7 3a ce 90 c2 d8 6e 9e fa b4 a6 fb 2a fe 60 97 3d>,
+      privKey: <Buffer a0 4d 39 87 d2 c8 c5 9f 95 ed c5 0e 54 1b 6f 2c 1f f3 de 7b a3 d3 11 d6 75 8d ce 8a c3 bd fb 68>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer 2d 94 d5 cf d0 4f 44 75 d8 c4 a6 71 d6 08 8f 77 d1 89 d6 0c 8b 1a 13 78 35 87 a8 0a f0 e3 69 6b>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 84 a8 b6 76 d6 ff 47 f8 96 e7 49 e7 92 bd 3b bb ad 0b 63 bb 66 d2 4f e3 af 76 56 83 97 f1 92 45>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310169679,
+    created: 1791310169679,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 84 a8 b6 76 d6 ff 47 f8 96 e7 49 e7 92 bd 3b bb ad 0b 63 bb 66 d2 4f e3 af 76 56 83 97 f1 92 45>,
+    preKeyId: 6627578
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BU2z1C/J4OCTHQoemsi/vQn22JoD7ux0lrLJcAYmRm1E': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 4d b3 d4 2f c9 e0 e0 93 1d 0a 1e 9a c8 bf bd 09 f6 d8 9a 03 ee ec 74 96 b2 c9 70 06 26 46 6d 44>,
+      privKey: <Buffer b8 00 b1 d8 70 3e 36 fa 19 1b 7f ff 18 83 73 31 f2 86 1f 0d 1a 54 c6 0d fc 91 ab ca 5a 0f 3e 5e>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer 1d 80 e0 50 f5 33 1a 41 6e 90 1c ef 73 64 40 e2 17 60 5a 3c 35 e5 40 df b1 aa 3e 36 4a 7b 3f 8c>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 db d7 08 cf 21 03 fb bd 5c 48 9f 06 35 bb a7 59 0f 22 7a 25 22 ea 83 1e 32 08 cb d3 3b e4 2c 0e>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311514503,
+    created: 1791311514503,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 db d7 08 cf 21 03 fb bd 5c 48 9f 06 35 bb a7 59 0f 22 7a 25 22 ea 83 1e 32 08 cb d3 3b e4 2c 0e>,
+    preKeyId: 6627589
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BZsEdE4VXW8t5uTzp78C/HREMgQ24HIcSXH38PJMEEgJ': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 9b 04 74 4e 15 5d 6f 2d e6 e4 f3 a7 bf 02 fc 74 44 32 04 36 e0 72 1c 49 71 f7 f0 f2 4c 10 48 09>,
+      privKey: <Buffer 78 3b d8 bc 67 86 e5 f9 23 a0 71 e2 87 32 5f a1 ae 56 72 6a 0d 8d 9f 36 c9 1f da bf a2 79 54 4a>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer 6a 13 48 4a f0 f0 ce 8c 6a 0e 14 43 8f 44 ac f0 00 a3 de 5f 07 07 2e e0 46 67 dd d3 eb 0d cd 43>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 99 3c c4 10 9a 98 fe d3 b0 1b 03 e0 9e 61 bb 0b b3 ed 27 bd 38 93 75 01 31 5e b8 29 18 a7 22 3a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311515230,
+    created: 1791311515230,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 99 3c c4 10 9a 98 fe d3 b0 1b 03 e0 9e 61 bb 0b b3 ed 27 bd 38 93 75 01 31 5e b8 29 18 a7 22 3a>,
+    preKeyId: 6627590
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BWTQSKtVFWvQo0C644Ti6S+RC159AfCFtcAV08Yycx1u': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 551840089,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 64 d0 48 ab 55 15 6b d0 a3 40 ba e3 84 e2 e9 2f 91 0b 5e 7d 01 f0 85 b5 c0 15 d3 c6 32 73 1d 6e>,
+      privKey: <Buffer 38 11 0a bb 78 aa 8f c0 0e db 57 a4 f7 0e 06 5d fd 6b bf 92 39 d0 25 cb 16 2a b4 ad 5a 2e 59 69>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 1d c9 1a 0f 12 9b 9c df 68 ef e7 e2 c1 f1 9f f3 a1 91 b1 5c 54 6f 9e 8a cd da 2e 5a 29 7c ca 02>,
+    previousCounter: 0,
+    rootKey: <Buffer 6a e0 b2 6e dd 02 3e e1 fa bd 2c 0f 36 09 6f 09 17 cc 48 60 36 50 bc c4 12 3b 37 b4 d6 d8 d0 e3>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 a9 b3 61 79 00 5c e5 ec 67 e0 fa 30 f5 ee ba fb ad d6 23 93 c5 d1 3f c6 63 85 45 28 7f ff a8 22>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310171357,
+    created: 1791310171357,
+    remoteIdentityKey: <Buffer 05 e3 c1 85 4b b2 a6 76 f8 dc 81 4b c0 94 98 6b 68 88 cc 42 7f b8 fe e4 f4 7c 63 79 50 73 7d 0d 48>
+  },
+  pendingPreKey: {
+    signedKeyId: 1805966,
+    baseKey: <Buffer 05 a9 b3 61 79 00 5c e5 ec 67 e0 fa 30 f5 ee ba fb ad d6 23 93 c5 d1 3f c6 63 85 45 28 7f ff a8 22>,
+    preKeyId: 12858290
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BZqYAkxF6/pozhO5f2SNhsKU/KIK6WpiC3qPCFRCK6QP': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1937431728,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 9a 98 02 4c 45 eb fa 68 ce 13 b9 7f 64 8d 86 c2 94 fc a2 0a e9 6a 62 0b 7a 8f 08 54 42 2b a4 0f>,
+      privKey: <Buffer 30 0e dd f1 ce 28 14 f7 a7 22 56 8b d5 37 07 d6 8e b3 43 db 23 4b 1d 82 9c a6 26 a6 79 4c c1 41>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 6c ad 0f 26 f8 c0 23 bc e4 a9 f8 11 e8 af 68 3f 44 e3 e3 b8 d7 f8 5c 06 57 f5 2d 42 c2 7b 52 4c>,
+    previousCounter: 0,
+    rootKey: <Buffer 12 6a d9 67 02 14 37 e7 84 01 a4 2c ae b2 42 c5 ff 3b 41 22 eb 16 0a d9 ca 92 13 ba e9 db fd ad>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 db 85 dd b4 d4 58 85 1c bf 93 d9 c7 79 73 9a c9 55 0c 66 d5 47 71 98 8b 81 59 de bb bb 61 cd 7c>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310171848,
+    created: 1791310171848,
+    remoteIdentityKey: <Buffer 05 af 07 15 b6 b7 e3 af fe a7 31 b5 e3 15 c9 2b 4c 37 39 67 6d bc e3 29 a0 e6 fe db 8a 4e 5b da 0d>
+  },
+  pendingPreKey: {
+    signedKeyId: 492660,
+    baseKey: <Buffer 05 db 85 dd b4 d4 58 85 1c bf 93 d9 c7 79 73 9a c9 55 0c 66 d5 47 71 98 8b 81 59 de bb bb 61 cd 7c>,
+    preKeyId: 4742997
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BSICoPjnJbO+T/0EMI3rUNCBUQXbTE+l+I2qZXeoDKhX': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1940921675,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 22 02 a0 f8 e7 25 b3 be 4f fd 04 30 8d eb 50 d0 81 51 05 db 4c 4f a5 f8 8d aa 65 77 a8 0c a8 57>,
+      privKey: <Buffer 90 80 bf fa f6 4d 75 4f 6d 3a d6 6d 58 4d 94 24 5b 19 96 8e 2c 08 c4 94 1b dc 1a df c9 e8 58 61>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 3d dd b7 c3 a1 3a f9 09 45 c5 86 d0 11 f2 c1 49 b3 72 84 d1 73 87 26 a6 09 87 f5 fd 92 43 a1 0a>,
+    previousCounter: 0,
+    rootKey: <Buffer bb 64 2a b5 12 28 92 c7 25 7b 40 e0 ef b7 e9 fa d6 07 9b 51 0f 08 22 81 89 07 5b 5f 80 ef 2a 6a>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 13 ad 3d 59 95 c3 b2 c1 0c b9 dd 1a 9e 32 d1 ee 8e b8 6b bc 2b 59 9d a5 4c 10 59 55 18 b5 40 54>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310172327,
+    created: 1791310172327,
+    remoteIdentityKey: <Buffer 05 b4 5f 2f c3 7c f4 df c3 ad de 65 c6 77 9f 38 c3 60 21 ce e1 9e 8f 25 25 92 d4 5a a6 e6 40 a1 05>
+  },
+  pendingPreKey: {
+    signedKeyId: 7959615,
+    baseKey: <Buffer 05 13 ad 3d 59 95 c3 b2 c1 0c b9 dd 1a 9e 32 d1 ee 8e b8 6b bc 2b 59 9d a5 4c 10 59 55 18 b5 40 54>,
+    preKeyId: 12442586
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BS1gkzPsn91GASiR8Em06/ZziTrARU8v/KHKXB0z2p0p': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1510035209,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 2d 60 93 33 ec 9f dd 46 01 28 91 f0 49 b4 eb f6 73 89 3a c0 45 4f 2f fc a1 ca 5c 1d 33 da 9d 29>,
+      privKey: <Buffer d8 ac 5b 4b 5e 42 c5 e0 6d c3 ec 02 b1 16 f0 96 88 5d 44 10 96 a2 26 bd e2 c2 e6 72 fa c0 49 43>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 32 58 1d 73 67 be e0 be cc e8 93 5a 05 d5 43 48 7b b9 8f 79 b5 68 16 d2 52 54 04 84 db 1d 12 6e>,
+    previousCounter: 0,
+    rootKey: <Buffer 92 98 d3 25 21 78 8b ae 25 10 e8 fb 81 77 08 1f 3e 8d 5d 33 68 d0 b1 da 17 6f 4a 3d 41 df 5f 83>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 8e 8d 3e 27 eb 9d a5 b4 eb b9 8b a4 10 34 67 78 c2 ad c7 b2 00 6d ed e0 63 57 c7 e2 3a e3 42 2a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310172341,
+    created: 1791310172341,
+    remoteIdentityKey: <Buffer 05 3f 8e 74 d4 80 03 be 95 94 23 61 85 f0 41 75 d7 e1 ce 86 46 43 c8 09 a4 f9 2b 3c 50 9b 89 06 04>
+  },
+  pendingPreKey: {
+    signedKeyId: 6625124,
+    baseKey: <Buffer 05 8e 8d 3e 27 eb 9d a5 b4 eb b9 8b a4 10 34 67 78 c2 ad c7 b2 00 6d ed e0 63 57 c7 e2 3a e3 42 2a>,
+    preKeyId: 2832118
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    BRtQRfzuVjiOieIJph0KQz9TIaJ2EDg4HF6Zmc33GtU8: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1929234114,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 1b 50 45 fc ee 56 38 8e 89 e2 09 a6 1d 0a 43 3f 53 21 a2 76 10 38 38 1c 5e 99 99 cd f7 1a d5 3c>,
+      privKey: <Buffer f8 eb ca b5 6f 56 ff 93 59 6e c1 9f 45 03 db 55 88 d5 b9 f4 cd 46 c4 61 90 7e 0e fb 8b 5f 72 54>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 bb f9 c7 18 bc 58 4b 71 75 4d 72 9f a0 de a1 be e4 e7 bd 3f 58 08 b5 22 88 cc cb d0 bd be b6 4b>,
+    previousCounter: 0,
+    rootKey: <Buffer 51 6a 65 ab 1b 29 b7 c3 36 5a ed 56 43 6c 3d e9 34 f4 df 56 41 f7 ca 61 b4 55 f5 19 ac 46 c6 31>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 7c 8d 32 f5 04 1d c1 32 2b da eb d4 26 66 c7 55 95 10 4b 7a 6a 67 16 4d 7e 09 dd 15 31 ce 4c 6d>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310172920,
+    created: 1791310172920,
+    remoteIdentityKey: <Buffer 05 84 77 d5 85 af 23 d5 f8 29 0a 44 b7 9a 6a d9 5e 70 08 72 16 f8 6e 46 15 bc f1 67 ee a9 c4 a6 38>
+  },
+  pendingPreKey: {
+    signedKeyId: 13950696,
+    baseKey: <Buffer 05 7c 8d 32 f5 04 1d c1 32 2b da eb d4 26 66 c7 55 95 10 4b 7a 6a 67 16 4d 7e 09 dd 15 31 ce 4c 6d>,
+    preKeyId: 11006227
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BdVJ6tay0Qb7WuHDzVZ/29cdG1B9QH+6F7NQKrbpCxdV': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1374134952,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 d5 49 ea d6 b2 d1 06 fb 5a e1 c3 cd 56 7f db d7 1d 1b 50 7d 40 7f ba 17 b3 50 2a b6 e9 0b 17 55>,
+      privKey: <Buffer a8 ce b0 bf f2 26 4b af ed 8e 60 56 7c ee d2 91 89 76 ea c3 07 8c ff dd da f8 1c df 23 89 fc 6d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 60 d5 1e ea 70 f2 b9 f5 d4 2b e0 ba 7f db 32 a1 57 b8 fb 93 1c c9 3f 26 80 1d ca d7 49 91 42 14>,
+    previousCounter: 0,
+    rootKey: <Buffer 85 f1 6d d4 2e 23 dc 6a eb 31 27 6b bf 1a 30 51 d1 dd ca b0 95 64 62 67 e3 d1 ed 43 a0 bc 75 d7>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 87 d6 4e 5b 80 03 08 3c 9f 24 0e c9 40 e0 f5 94 a2 9e c6 8e 62 da ab 56 72 f5 77 37 b9 0c ae 4a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310173825,
+    created: 1791310173825,
+    remoteIdentityKey: <Buffer 05 f8 dd 82 b8 18 9f 2a ad f2 77 54 7b da b7 3b 9a fd 19 e3 be 09 2f f5 a2 18 04 71 00 30 6f a9 40>
+  },
+  pendingPreKey: {
+    signedKeyId: 13513642,
+    baseKey: <Buffer 05 87 d6 4e 5b 80 03 08 3c 9f 24 0e c9 40 e0 f5 94 a2 9e c6 8e 62 da ab 56 72 f5 77 37 b9 0c ae 4a>,
+    preKeyId: 13440695
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BSlPnrTshlS8bnj5ZokI/OJJB7vn+vjMaA3EHBfm8Ms/': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1635713132,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 29 4f 9e b4 ec 86 54 bc 6e 78 f9 66 89 08 fc e2 49 07 bb e7 fa f8 cc 68 0d c4 1c 17 e6 f0 cb 3f>,
+      privKey: <Buffer 60 b5 55 bc 21 2d fa c7 58 c4 30 a3 f6 d6 8c 1f 2a 5f e4 5d 0d 28 87 d2 d1 49 97 8d 16 72 c7 42>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 98 08 bf cd 25 e2 d4 e8 a5 26 77 99 c4 8e ba e0 24 2e 81 ff 3d d9 ed be 6d d1 15 a4 3f 76 c9 08>,
+    previousCounter: 0,
+    rootKey: <Buffer 17 af fa 15 59 ba 49 f8 35 3f ad 91 d7 73 0d 8a 6b c3 30 08 b5 9e d5 e1 f3 bf 6a d9 d5 01 b6 43>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 bb e9 10 35 72 de e7 91 87 7f 89 09 df 4a 16 93 ba e3 f5 2e a6 d1 13 01 47 b3 ac 2a 97 68 c6 61>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310173829,
+    created: 1791310173829,
+    remoteIdentityKey: <Buffer 05 00 e3 07 cf 72 83 f0 3b c9 4c cc 6d ac 2d 04 50 c9 24 a0 1f 28 7c 28 82 77 0d a6 c1 18 7b 6a 1d>
+  },
+  pendingPreKey: {
+    signedKeyId: 1920896,
+    baseKey: <Buffer 05 bb e9 10 35 72 de e7 91 87 7f 89 09 df 4a 16 93 ba e3 f5 2e a6 d1 13 01 47 b3 ac 2a 97 68 c6 61>,
+    preKeyId: 15196776
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BWvvVyug+Kz4wWREaH/cVI4rFmNNusSJ0ZrOAPKbUcIE': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1065949321,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 6b ef 57 2b a0 f8 ac f8 c1 64 44 68 7f dc 54 8e 2b 16 63 4d ba c4 89 d1 9a ce 00 f2 9b 51 c2 04>,
+      privKey: <Buffer 58 b4 3c 04 d0 32 1b fe f9 7f a4 47 57 b1 17 0a 41 e1 44 b5 34 c5 11 f3 dc 90 f0 b1 d1 79 ec 44>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 ef 89 91 17 b9 da df a1 33 83 dc f9 db bf fc 51 2b 77 ae 00 6a cb e2 44 20 0a 24 48 04 0c 6a 6e>,
+    previousCounter: 0,
+    rootKey: <Buffer 62 0e cf cd 9d d2 5c ae b2 25 d6 c2 1b 19 ef 2c d8 6f b3 18 3c c1 98 26 18 ca d8 b1 d3 94 52 bc>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 fb 4b 18 03 74 9f cc bf 2f 3f e9 92 f2 c4 3f 95 14 fc 24 37 fa fd f4 2f 98 d2 bc 4e e6 99 e1 03>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310173833,
+    created: 1791310173833,
+    remoteIdentityKey: <Buffer 05 51 f7 d5 84 80 b1 da fe b9 70 b6 66 51 e8 5b 36 d3 c8 22 41 c0 cf 23 2b e1 85 3e 7b bd 90 7f 31>
+  },
+  pendingPreKey: {
+    signedKeyId: 288875,
+    baseKey: <Buffer 05 fb 4b 18 03 74 9f cc bf 2f 3f e9 92 f2 c4 3f 95 14 fc 24 37 fa fd f4 2f 98 d2 bc 4e e6 99 e1 03>,
+    preKeyId: 3069324
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    Ba7B9yP3WvmwflEWdUSzDs1tW4jEpdsEzl3iuWO0UF0j: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 2114424783,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 ae c1 f7 23 f7 5a f9 b0 7e 51 16 75 44 b3 0e cd 6d 5b 88 c4 a5 db 04 ce 5d e2 b9 63 b4 50 5d 23>,
+      privKey: <Buffer b8 a1 65 9e 24 eb 87 9b 5a 9f 95 0f 7c 75 82 af 91 63 a3 6d 21 82 f0 80 89 35 89 a3 66 f0 e2 6f>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 da 3f f9 69 29 50 7a ac b1 0e 4f 71 81 24 dc 32 ee df 29 9f 14 60 8f be 06 44 2f b1 3d 40 26 06>,
+    previousCounter: 0,
+    rootKey: <Buffer 28 69 ab 66 5b 63 7e d1 45 2e fd 93 25 c8 1b ab 49 f8 00 f6 4c 60 6b e5 b6 c7 a8 a8 d3 11 12 3a>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 28 f5 53 53 3d 53 08 05 33 8f 89 f7 ac b0 d8 13 9f 67 80 76 c7 04 1d df 1a 27 05 64 3e 7b 48 68>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310173837,
+    created: 1791310173837,
+    remoteIdentityKey: <Buffer 05 52 bf 1d 88 62 57 f2 79 28 d1 8f d6 83 84 63 05 45 a3 a4 6c 1c cc 00 a4 09 28 f0 d1 26 95 5d 5b>
+  },
+  pendingPreKey: {
+    signedKeyId: 2426325,
+    baseKey: <Buffer 05 28 f5 53 53 3d 53 08 05 33 8f 89 f7 ac b0 d8 13 9f 67 80 76 c7 04 1d df 1a 27 05 64 3e 7b 48 68>,
+    preKeyId: 15128885
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BdJbGIw7/tYuBd/cXkGBPOXnvhKaEB2RxroQkug5mz4P': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1730220572,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 d2 5b 18 8c 3b fe d6 2e 05 df dc 5e 41 81 3c e5 e7 be 12 9a 10 1d 91 c6 ba 10 92 e8 39 9b 3e 0f>,
+      privKey: <Buffer 20 3f a7 bd 3d c3 fa e9 be e5 95 76 67 97 fc 68 46 31 1e 51 32 a6 f9 23 3e 0d c8 4a 63 21 1a 5a>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 68 a2 0b 16 f4 f7 70 78 1b 91 22 1c fa 10 a4 c0 48 4f 33 ed ec 47 6b 05 5c 20 50 d3 34 55 99 48>,
+    previousCounter: 0,
+    rootKey: <Buffer a6 54 03 f8 39 e0 9a de c0 73 4c 6a 92 05 b1 09 41 3a 6c 74 4c 3b d9 01 e1 22 8c 1b 1a c7 8f 60>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 ed 0f f7 dd 57 d2 68 a4 ff d5 07 d7 3e af 14 e3 d2 ce 55 3d 16 0e 88 44 1f f5 df 4b 25 2f ce 10>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311399730,
+    created: 1791311399730,
+    remoteIdentityKey: <Buffer 05 6c 8e 41 35 0f d0 bf c4 f0 df 3b 68 61 c0 72 4b 3e fe c8 7b f5 8d 79 0b ec e9 ff 37 5b 84 23 7e>
+  },
+  pendingPreKey: {
+    signedKeyId: 11277989,
+    baseKey: <Buffer 05 ed 0f f7 dd 57 d2 68 a4 ff d5 07 d7 3e af 14 e3 d2 ce 55 3d 16 0e 88 44 1f f5 df 4b 25 2f ce 10>,
+    preKeyId: 12225454
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'Bc/baPvm3UVQZJz73oaFihF4IDhEgD/TnQSRLjKjIEg3': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1798076242,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 cf db 68 fb e6 dd 45 50 64 9c fb de 86 85 8a 11 78 20 38 44 80 3f d3 9d 04 91 2e 32 a3 20 48 37>,
+      privKey: <Buffer 90 6e fd e6 25 c4 53 41 02 75 b4 83 57 d2 27 45 43 2f 28 ce c4 e4 36 8e 1f b9 7e e5 9b fd 69 73>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 aa 99 be ad 47 e0 00 a1 b3 bd 60 ef e8 99 e2 0c ca 60 8b 7c dd 81 a5 21 e9 27 93 86 61 31 5e 2a>,
+    previousCounter: 0,
+    rootKey: <Buffer 1d d9 b4 a1 bd f8 8c 80 0c f1 3c af 54 3e 6d 76 17 0b c1 a5 a5 c2 3c 21 be d3 fa 02 be c3 7b 64>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 f8 c1 21 ce 22 4e 6b 6b c9 7c 25 00 e9 7b 1f 0b 70 67 2c c0 18 53 40 23 65 c4 ee ac c1 c6 7f 29>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791310173842,
+    created: 1791310173842,
+    remoteIdentityKey: <Buffer 05 ec 91 9b 5b a2 eb 34 ac 5b 99 08 97 38 0c aa 7b 79 16 64 4b fe 6e e9 8f 6f 70 5a 43 ed 9c 05 0a>
+  },
+  pendingPreKey: {
+    signedKeyId: 16306212,
+    baseKey: <Buffer 05 f8 c1 21 ce 22 4e 6b 6b c9 7c 25 00 e9 7b 1f 0b 70 67 2c c0 18 53 40 23 65 c4 ee ac c1 c6 7f 29>,
+    preKeyId: 8382031
+  }
+}
+__________________
+SENDER : USER
+CMD    : ..
+JID    : 201140311032@s.whatsapp.net
+LID    : 158244530081985@lid
+LOC    : GROUP
+ELITE  : NO
+__________________
+COMMAND UNKNOWN: ..
+═══ بدء التشغيل: 18:33:50 ═══
+🚀 Loading Account Logic for [art]...
+
+░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓█▓▒░░▒▓██████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░         ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░  ░▒▓████████▓▒░░▒▓██████▓▒░░▒▓█▓▒░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░   ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+
+
+           ✦彡  ANASTASIA ULTRA NOVA VER 彡✦
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠾⠏⠉⠀⠀⠀⠀⠀⠀⠈⠉⠳⢶⣄⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠁⠀⠀⠀⠸⠷⠀⠀⠀⠀⠀⠘⠛⠃⠙⢿⣄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⡿⢱⡟⠓⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣶⡄⢻⡆⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⣧⡈⠙⠛⠁⠀⢀⣀⡀⠀⠀⠀⣀⣀⠀⠀⠁⠀⠈⣿⡀
+⠀⠀⠀⠀⠀⠀⠀⠸⢍⣻⣦⣄⡀⠀⠹⠭⠟⠀⠀⠸⣿⣿⠇⠀⣠⠶⣦⣿⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⣧⣈⣻⡷⢶⣦⣀⣀⠀⠀⠀⠀⠀⠀⠈⢛⢡⡟⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣳⠃⡹⠳⡤⡴⡏⠙⠛⣻⠶⠶⢤⡤⠤⠶⣿⠁⠀
+⠀⠀⠀⢀⣠⣤⣶⠶⠋⣵⠋⢰⠇⣼⣱⠁⢹⠗⢲⡟⠦⣤⠼⠛⠦⠞⠃⠀⠀
+⠀⢀⣴⡿⠋⠁⢠⣰⠞⠁⣰⣯⣼⠁⡏⠀⢸⠀⠸⡇⠀⢸⠀⠀⠀⠀⠀⠀⠀
+⠀⣼⠋⢀⣠⡴⣟⢁⣠⡞⢻⡿⠁⢰⡇⠀⢸⣄⠀⢷⠀⠸⣆⠀⠀⠀⠀⠀⠀
+⢸⢇⣴⡿⠋⠄⣼⡿⠁⠀⣾⠁⠀⠸⡇⠀⠀⢿⡄⠘⣆⠀⠹⣦⠀⠀⠀⠀⠀
+⢠⣾⠏⠀⠀⢠⣿⠀⠀⠀⣿⡄⠀⠀⢿⠀⠀⠈⣷⡄⠹⣧⠀⠙⢷⣄⠀⠀⠀
+⢸⡟⠀⠀⠀⢸⣿⠀⠀⠀⢹⣧⠀⠀⠸⣷⠀⠀⠸⣷⡀⠹⣦⠀⠀⠻⣧⠀⠀
+⢸⡇⠀⠀⠀⠀⣿⡆⠀⠀⠀⢻⣧⠀⠀⢻⡆⠀⠀⠹⣧⠀⠹⣇⠀⠀⢻⣧⠀
+⢸⣇⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠹⣧⠀⠘⣿⠀⠀⠀⣿⡇⠀⢿⣄⠀⠀⣿⡇
+⢈⣿⡄⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠈⠣⡀⢿⡆⠀⠀⣿⠃⠀⠘⣿⡀⠀⢸⡇
+⠀⠘⠃⠀⠀⠀⠀⠀⠈⢿⣧⠀⠀⠀⠀⠀⢸⣷⢀⡼⠃⠀⠀⠀⣿⡇⠀⢸⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣧⡀⠀⠀⠀⢸⣿⠈⠀⠀⠀⠀⠀⣿⡇⠀⡾⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡄⠀⠀⣸⡏⠀⠀⠀⠀⠀⣸⡟⠀⠀⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀⠀⢀⣴⠟⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠃⠀⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+[38;2;140;120;255mℹ Connecting to WhatsApp...[0m
+[38;2;255;255;0m✓ CONNECTED! [art][0m
+✅ [ADMIN MONITOR] registered successfully
+🛸 Plugin loaded: مراقب
+🛸 Plugin loaded: مراقبة
+🛸 Plugin loaded: monitor
+🛸 Plugin loaded: فحص
+🛸 Plugin loaded: فحص_اجهزة
+🛸 Plugin loaded: فحص_قروب
+🛸 Plugin loaded: كشف_قروب
+🛸 Plugin loaded: checkdev
+🛸 Plugin loaded: رابط
+✅ [RAQIB] مراقب الأعضاء مفعّل (كل 5 دقائق)
+🛸 Plugin loaded: راقب
+🛸 Plugin loaded: watch
+🛸 Plugin loaded: مراقب_اعضاء
+🛸 Plugin loaded: jid
+🛸 Plugin loaded: اعدادات
+🛸 Plugin loaded: انهاء
+🛸 Plugin loaded: تيك
+🛸 Plugin loaded: تيكطول
+🛸 Plugin loaded: تيكفوري
+[33m ⚠ Skipped (no execute): /home/zaikabdou1/Art/accounts/art/plugins/settings/كتابة-state.js [0m
+🛸 Plugin loaded: كتابة
+🔌 All plugins loaded successfully
+🔌 PLUGINS LOADED & READY.
+✅ [GROUP EV] listener attached
+✅ [MSG EV] listener attached
+__________________
+SENDER : USER
+CMD    : شكلك
+JID    : 967784109910@s.whatsapp.net
+LID    : 133123283148848@lid
+LOC    : GROUP
+ELITE  : NO
+__________________
+COMMAND UNKNOWN: شكلك
+__________________
+SENDER : USER
+CMD    : ..
+JID    : 201140311032@s.whatsapp.net
+LID    : 158244530081985@lid
+LOC    : GROUP
+ELITE  : NO
+__________________
+COMMAND UNKNOWN: ..
+Closing session: SessionEntry {
+  _chains: {
+    'BdmQ33CzAAh3QRhfbPR1EN/DZmrhiHT6Ty6668gecowU': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 d9 90 df 70 b3 00 08 77 41 18 5f 6c f4 75 10 df c3 66 6a e1 88 74 fa 4f 2e ba eb c8 1e 72 8c 14>,
+      privKey: <Buffer 90 6d da 1a 2e 79 6b c4 25 a5 ae 07 c9 6b 91 fd 44 23 69 c3 82 db 27 0c 47 9b 03 d3 20 e7 6e 6c>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer 68 af bb 79 96 de d5 96 90 1f 13 e9 68 de 66 82 da 08 4b 69 a6 78 eb 93 4d 4a 47 15 94 73 4a f4>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 5d e9 65 dd f1 0b 5c ce 6f d8 3f 5a 87 ed 4e 84 d2 de 2f 2f 35 ae 10 48 98 ca 4a ca 43 ea b2 2e>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311516396,
+    created: 1791311516396,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 5d e9 65 dd f1 0b 5c ce 6f d8 3f 5a 87 ed 4e 84 d2 de 2f 2f 35 ae 10 48 98 ca 4a ca 43 ea b2 2e>,
+    preKeyId: 6627591
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BZpONVSYsI9Vf/zl2CoXvWpmLhW3YqklJmT0o2Ji6YNa': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 9a 4e 35 54 98 b0 8f 55 7f fc e5 d8 2a 17 bd 6a 66 2e 15 b7 62 a9 25 26 64 f4 a3 62 62 e9 83 5a>,
+      privKey: <Buffer f8 6b 40 49 4d 2f 89 07 8b 37 db 29 44 48 b0 ed 66 c5 11 ab b2 4e 64 d4 fd 48 2f e0 ca 1c 94 43>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer d7 35 6f d3 81 21 2c cc 66 21 aa ca aa e2 86 60 b0 7b 65 c2 51 34 b2 12 f2 fd d6 3e 20 31 50 7e>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 b2 83 2e 56 b6 7c da 53 ee b1 60 4e cc ea ae 09 17 dc f0 2a 58 8c 43 b6 3b 6f 41 9c 75 9e a2 08>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311933297,
+    created: 1791311933297,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 b2 83 2e 56 b6 7c da 53 ee b1 60 4e cc ea ae 09 17 dc f0 2a 58 8c 43 b6 3b 6f 41 9c 75 9e a2 08>,
+    preKeyId: 6627597
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'Bc21/WvAfsHx93nYpdiFZ/B/gRRtrKIcNVxYwKSpcqEM': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 297991602,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 cd b5 fd 6b c0 7e c1 f1 f7 79 d8 a5 d8 85 67 f0 7f 81 14 6d ac a2 1c 35 5c 58 c0 a4 a9 72 a1 0c>,
+      privKey: <Buffer e8 96 d0 19 15 bf 20 c9 24 b2 ca 7e e4 2e 30 93 83 84 e9 48 74 e2 10 64 69 b9 ea 07 fd 4e 68 7e>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 58 fa bc 7b 6f f2 78 29 7c 92 c7 a6 7f 10 b4 d0 aa 99 9a 70 26 05 65 43 d2 91 cb 57 c9 c2 97 69>,
+    previousCounter: 0,
+    rootKey: <Buffer f3 81 ad 46 3b 32 02 f6 21 68 6c b7 8d 54 5e 1f c2 43 15 21 6d ba 6c 7c eb 68 75 b4 70 ba 99 b9>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 3c eb d1 b3 0e 75 78 2e 2d 6e 46 1f 8b ba a6 c1 f0 a6 a4 a3 f0 73 19 47 53 6b c3 ac ec 18 ea 0d>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311933797,
+    created: 1791311933797,
+    remoteIdentityKey: <Buffer 05 9a ba fb 2c a0 de 31 03 e3 9b 49 4a 20 bc 9d 1b 8d 04 7b 57 cf 71 a0 af d3 5f 11 56 a0 b3 3a 52>
+  },
+  pendingPreKey: {
+    signedKeyId: 16506446,
+    baseKey: <Buffer 05 3c eb d1 b3 0e 75 78 2e 2d 6e 46 1f 8b ba a6 c1 f0 a6 a4 a3 f0 73 19 47 53 6b c3 ac ec 18 ea 0d>,
+    preKeyId: 6627598
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BUXP4YcVIcLGB/esFbL9qX/6GhRQy9AJjpiZ9oqcsBcf': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 551840089,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 45 cf e1 87 15 21 c2 c6 07 f7 ac 15 b2 fd a9 7f fa 1a 14 50 cb d0 09 8e 98 99 f6 8a 9c b0 17 1f>,
+      privKey: <Buffer c0 af 75 3b 6a c8 af 1f fe 89 c8 57 fc 2f c4 5a 1a 26 83 9a 65 83 e3 b2 05 68 8a 8e 09 0f e9 5d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 1d c9 1a 0f 12 9b 9c df 68 ef e7 e2 c1 f1 9f f3 a1 91 b1 5c 54 6f 9e 8a cd da 2e 5a 29 7c ca 02>,
+    previousCounter: 0,
+    rootKey: <Buffer fd 91 06 16 01 59 ec 6e 5e 19 c3 b2 b4 90 9a 41 74 30 a9 0d 89 6d 63 f5 9a f1 d4 7d 3e 93 7e 53>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 9e ca b5 c3 71 80 b6 76 3c a5 6a ab 2f ac 0a 92 2b 1c a4 9f ce 81 3a 10 45 42 1a b2 22 ee a2 4a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311519206,
+    created: 1791311519206,
+    remoteIdentityKey: <Buffer 05 e3 c1 85 4b b2 a6 76 f8 dc 81 4b c0 94 98 6b 68 88 cc 42 7f b8 fe e4 f4 7c 63 79 50 73 7d 0d 48>
+  },
+  pendingPreKey: {
+    signedKeyId: 1805966,
+    baseKey: <Buffer 05 9e ca b5 c3 71 80 b6 76 3c a5 6a ab 2f ac 0a 92 2b 1c a4 9f ce 81 3a 10 45 42 1a b2 22 ee a2 4a>,
+    preKeyId: 12858301
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BSi1Fj8QDOMumhq+sVSkrJMzaZw5seBHw7Cc0SCiYQoA': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1937431728,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 28 b5 16 3f 10 0c e3 2e 9a 1a be b1 54 a4 ac 93 33 69 9c 39 b1 e0 47 c3 b0 9c d1 20 a2 61 0a 00>,
+      privKey: <Buffer 00 23 b9 6d 80 3f ae 48 85 08 20 b7 39 80 9b d1 6e 2c 63 ca 83 2a a4 c4 bd fb 55 56 42 a9 bc 6e>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 6c ad 0f 26 f8 c0 23 bc e4 a9 f8 11 e8 af 68 3f 44 e3 e3 b8 d7 f8 5c 06 57 f5 2d 42 c2 7b 52 4c>,
+    previousCounter: 0,
+    rootKey: <Buffer 60 b6 5f 7d ec e0 bf 19 5e 03 da f2 95 ec b9 e2 48 1a af fe f5 94 b8 1d 74 6e 62 44 cb 6b e5 bf>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 f0 ce d2 aa 2f f3 2f 4b 23 60 8f 9b c6 c6 9a 96 82 bd 15 cc 83 9c 9f d7 f6 69 34 54 b6 9f d4 31>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311520016,
+    created: 1791311520016,
+    remoteIdentityKey: <Buffer 05 af 07 15 b6 b7 e3 af fe a7 31 b5 e3 15 c9 2b 4c 37 39 67 6d bc e3 29 a0 e6 fe db 8a 4e 5b da 0d>
+  },
+  pendingPreKey: {
+    signedKeyId: 492660,
+    baseKey: <Buffer 05 f0 ce d2 aa 2f f3 2f 4b 23 60 8f 9b c6 c6 9a 96 82 bd 15 cc 83 9c 9f d7 f6 69 34 54 b6 9f d4 31>,
+    preKeyId: 4742999
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BVEWHiYtsx++RFwKD+CQVy/8Oj8gy/WplF+O1Sx9UwNn': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1940921675,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 51 16 1e 26 2d b3 1f be 44 5c 0a 0f e0 90 57 2f fc 3a 3f 20 cb f5 a9 94 5f 8e d5 2c 7d 53 03 67>,
+      privKey: <Buffer 60 01 53 12 6c a4 70 d2 70 4d ee 8f 78 e1 1a 9c f0 ae 26 e3 60 b6 4e bd 05 1c 01 de 7c 98 c7 40>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 3d dd b7 c3 a1 3a f9 09 45 c5 86 d0 11 f2 c1 49 b3 72 84 d1 73 87 26 a6 09 87 f5 fd 92 43 a1 0a>,
+    previousCounter: 0,
+    rootKey: <Buffer 0e 11 ec a4 67 74 1d f9 de 52 7a c5 a5 57 14 de 8b 08 9c e4 b9 eb 95 fd 4e 87 11 26 b7 01 b5 bb>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 f2 1d 16 e7 aa 2f 1f b5 ba ca 7d 56 aa cf 72 e2 de 60 78 27 99 e5 54 7a 59 01 a7 6a 62 32 60 4c>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311520850,
+    created: 1791311520850,
+    remoteIdentityKey: <Buffer 05 b4 5f 2f c3 7c f4 df c3 ad de 65 c6 77 9f 38 c3 60 21 ce e1 9e 8f 25 25 92 d4 5a a6 e6 40 a1 05>
+  },
+  pendingPreKey: {
+    signedKeyId: 7959615,
+    baseKey: <Buffer 05 f2 1d 16 e7 aa 2f 1f b5 ba ca 7d 56 aa cf 72 e2 de 60 78 27 99 e5 54 7a 59 01 a7 6a 62 32 60 4c>,
+    preKeyId: 12442587
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BW+bROy48gGpAimigKN1xcKUFNYmdCoQTDe0pQymXeED': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1510035209,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 6f 9b 44 ec b8 f2 01 a9 02 29 a2 80 a3 75 c5 c2 94 14 d6 26 74 2a 10 4c 37 b4 a5 0c a6 5d e1 03>,
+      privKey: <Buffer 10 b9 91 c1 92 f5 9f d1 ff ce 4a 82 5a b6 f8 20 ea cc d7 94 62 60 9e 1d e3 2f 1a 4c 78 76 20 5b>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 32 58 1d 73 67 be e0 be cc e8 93 5a 05 d5 43 48 7b b9 8f 79 b5 68 16 d2 52 54 04 84 db 1d 12 6e>,
+    previousCounter: 0,
+    rootKey: <Buffer ad c6 09 ec 37 01 5a 99 05 98 99 89 af a2 7a dc 99 bf 7b c9 85 f0 53 64 a7 eb 8d b7 01 9d 9e ae>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 5d 5d 6a eb 96 ca 06 f6 5b 25 7c de 41 30 aa 14 68 fe b8 8a 79 38 7b da 6a b7 59 34 db fb 1b 13>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311520855,
+    created: 1791311520855,
+    remoteIdentityKey: <Buffer 05 3f 8e 74 d4 80 03 be 95 94 23 61 85 f0 41 75 d7 e1 ce 86 46 43 c8 09 a4 f9 2b 3c 50 9b 89 06 04>
+  },
+  pendingPreKey: {
+    signedKeyId: 6625124,
+    baseKey: <Buffer 05 5d 5d 6a eb 96 ca 06 f6 5b 25 7c de 41 30 aa 14 68 fe b8 8a 79 38 7b da 6a b7 59 34 db fb 1b 13>,
+    preKeyId: 2832119
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BTIgcj8AZVKYndusSH6LddD2fIt+KMCa4Rtevzl04GRU': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1929234114,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 32 20 72 3f 00 65 52 98 9d db ac 48 7e 8b 75 d0 f6 7c 8b 7e 28 c0 9a e1 1b 5e bf 39 74 e0 64 54>,
+      privKey: <Buffer 10 df ad 49 bc b4 b5 d1 16 84 11 4b 2a 00 4c b1 46 c5 38 61 55 aa 2d e8 28 83 c7 ee fe 18 7b 5c>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 bb f9 c7 18 bc 58 4b 71 75 4d 72 9f a0 de a1 be e4 e7 bd 3f 58 08 b5 22 88 cc cb d0 bd be b6 4b>,
+    previousCounter: 0,
+    rootKey: <Buffer ca e8 a7 0d 06 bf b5 f9 a8 a8 6c 86 3f 4d 61 84 34 ff 76 13 6c a4 8b f2 58 b1 37 0e 39 be fe a0>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 ce 05 8e 6a 50 d3 d9 d3 4c 16 34 20 c3 d6 94 be f0 69 31 2e a9 70 eb 4f ca 65 7e 54 66 8d 12 3a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311521797,
+    created: 1791311521797,
+    remoteIdentityKey: <Buffer 05 84 77 d5 85 af 23 d5 f8 29 0a 44 b7 9a 6a d9 5e 70 08 72 16 f8 6e 46 15 bc f1 67 ee a9 c4 a6 38>
+  },
+  pendingPreKey: {
+    signedKeyId: 13950696,
+    baseKey: <Buffer 05 ce 05 8e 6a 50 d3 d9 d3 4c 16 34 20 c3 d6 94 be f0 69 31 2e a9 70 eb 4f ca 65 7e 54 66 8d 12 3a>,
+    preKeyId: 11006229
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BdFoHJrl5qO+CJwN85WjN/Si5Z6CDru5+4oCRj04jjca': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1374134952,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 d1 68 1c 9a e5 e6 a3 be 08 9c 0d f3 95 a3 37 f4 a2 e5 9e 82 0e bb b9 fb 8a 02 46 3d 38 8e 37 1a>,
+      privKey: <Buffer 18 a2 44 9e 08 b7 d1 f7 3a b1 96 25 e5 7f 90 b6 32 87 8a ed 3f 85 2a 32 7a 40 9c 23 6b ee 1a 67>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 60 d5 1e ea 70 f2 b9 f5 d4 2b e0 ba 7f db 32 a1 57 b8 fb 93 1c c9 3f 26 80 1d ca d7 49 91 42 14>,
+    previousCounter: 0,
+    rootKey: <Buffer e7 03 f8 21 3a 0c 79 08 f3 05 87 75 a8 77 50 19 a8 18 6d 7a b3 48 0f bb 9f a1 2b 9e 3f ed 5b ad>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 02 8d 1b 3d a2 ef 71 68 9a 90 51 31 76 44 d5 19 49 59 eb 03 80 18 29 9c 0c da dc 7a fc a3 8d 67>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523216,
+    created: 1791311523216,
+    remoteIdentityKey: <Buffer 05 f8 dd 82 b8 18 9f 2a ad f2 77 54 7b da b7 3b 9a fd 19 e3 be 09 2f f5 a2 18 04 71 00 30 6f a9 40>
+  },
+  pendingPreKey: {
+    signedKeyId: 13513642,
+    baseKey: <Buffer 05 02 8d 1b 3d a2 ef 71 68 9a 90 51 31 76 44 d5 19 49 59 eb 03 80 18 29 9c 0c da dc 7a fc a3 8d 67>,
+    preKeyId: 13440701
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BbLSLhqcfZ6TMQLQIs9cSnefKbgHyASK4/a2w2MuTmdH': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1635713132,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 b2 d2 2e 1a 9c 7d 9e 93 31 02 d0 22 cf 5c 4a 77 9f 29 b8 07 c8 04 8a e3 f6 b6 c3 63 2e 4e 67 47>,
+      privKey: <Buffer d8 ca 10 2a a1 1d d7 1b 13 39 9a 8c 4b 46 e7 55 0c 38 b3 13 b9 e6 a2 28 8d 18 11 2b c2 1b 64 66>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 98 08 bf cd 25 e2 d4 e8 a5 26 77 99 c4 8e ba e0 24 2e 81 ff 3d d9 ed be 6d d1 15 a4 3f 76 c9 08>,
+    previousCounter: 0,
+    rootKey: <Buffer fd ea fc 37 99 1e 15 ba 16 1c 0e a4 e3 83 7f 37 84 1c 3f 4f f7 fc 0a 89 fe 65 b3 af 88 d4 da 9b>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 c6 0a 1a bd c0 36 3f 43 b7 a2 49 01 61 02 7e ca 09 be 57 c6 73 af c8 55 55 97 5f 3e a4 92 b8 25>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523225,
+    created: 1791311523225,
+    remoteIdentityKey: <Buffer 05 00 e3 07 cf 72 83 f0 3b c9 4c cc 6d ac 2d 04 50 c9 24 a0 1f 28 7c 28 82 77 0d a6 c1 18 7b 6a 1d>
+  },
+  pendingPreKey: {
+    signedKeyId: 1920896,
+    baseKey: <Buffer 05 c6 0a 1a bd c0 36 3f 43 b7 a2 49 01 61 02 7e ca 09 be 57 c6 73 af c8 55 55 97 5f 3e a4 92 b8 25>,
+    preKeyId: 15196784
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BYjRD8gwLc95H+rxKirkf5saWF6qbTT9ztHEp7h8q+8q': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1065949321,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 88 d1 0f c8 30 2d cf 79 1f ea f1 2a 2a e4 7f 9b 1a 58 5e aa 6d 34 fd ce d1 c4 a7 b8 7c ab ef 2a>,
+      privKey: <Buffer e8 24 40 1d 1d 1a 80 5b f4 4a e3 9d 2c 1b 11 c6 61 c6 4d a0 d9 53 34 93 cb 6d 09 a2 34 1c e8 71>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 ef 89 91 17 b9 da df a1 33 83 dc f9 db bf fc 51 2b 77 ae 00 6a cb e2 44 20 0a 24 48 04 0c 6a 6e>,
+    previousCounter: 0,
+    rootKey: <Buffer d6 f5 29 5a f5 4e 87 1e c8 dd 0e c7 32 9a c9 d1 d8 01 a8 19 70 54 28 7f ce 33 f4 92 ef 33 e2 b9>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 f3 1b f8 7e 0b 5e ef 8c cf 51 8f f0 24 04 15 27 d9 f4 b8 b7 ff 41 a6 cd a8 4a a0 91 7c 94 ee 12>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523242,
+    created: 1791311523242,
+    remoteIdentityKey: <Buffer 05 51 f7 d5 84 80 b1 da fe b9 70 b6 66 51 e8 5b 36 d3 c8 22 41 c0 cf 23 2b e1 85 3e 7b bd 90 7f 31>
+  },
+  pendingPreKey: {
+    signedKeyId: 288875,
+    baseKey: <Buffer 05 f3 1b f8 7e 0b 5e ef 8c cf 51 8f f0 24 04 15 27 d9 f4 b8 b7 ff 41 a6 cd a8 4a a0 91 7c 94 ee 12>,
+    preKeyId: 3069403
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BVuYX+8dgTcG6gdRgQjeLXO+awVTVVJxa0DEhgKu4xhJ': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 2114424783,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 5b 98 5f ef 1d 81 37 06 ea 07 51 81 08 de 2d 73 be 6b 05 53 55 52 71 6b 40 c4 86 02 ae e3 18 49>,
+      privKey: <Buffer e0 ad 67 06 24 7e 3b 29 5c 83 cf 44 f7 b7 55 6b bc 20 8f e5 c7 bc 9e 6b 0a 29 dd d7 67 80 e1 66>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 da 3f f9 69 29 50 7a ac b1 0e 4f 71 81 24 dc 32 ee df 29 9f 14 60 8f be 06 44 2f b1 3d 40 26 06>,
+    previousCounter: 0,
+    rootKey: <Buffer da e2 f8 c0 72 99 07 11 5a c3 36 93 22 9f b7 bc 5f 7b dc be b0 f9 e6 9d 22 22 c1 d8 b0 74 c6 b0>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 3e c0 1e 32 ec c4 d4 aa e6 6f f3 ce 3b 12 71 f4 1f 48 f0 2d 7d 8c 70 28 06 44 8d c0 5e 02 09 76>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523253,
+    created: 1791311523253,
+    remoteIdentityKey: <Buffer 05 52 bf 1d 88 62 57 f2 79 28 d1 8f d6 83 84 63 05 45 a3 a4 6c 1c cc 00 a4 09 28 f0 d1 26 95 5d 5b>
+  },
+  pendingPreKey: {
+    signedKeyId: 2426325,
+    baseKey: <Buffer 05 3e c0 1e 32 ec c4 d4 aa e6 6f f3 ce 3b 12 71 f4 1f 48 f0 2d 7d 8c 70 28 06 44 8d c0 5e 02 09 76>,
+    preKeyId: 15128896
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BXelNkDA0PzgmexT5TVavKPh79+GSAztavTsNjfsVPEK': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1730220572,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 77 a5 36 40 c0 d0 fc e0 99 ec 53 e5 35 5a bc a3 e1 ef df 86 48 0c ed 6a f4 ec 36 37 ec 54 f1 0a>,
+      privKey: <Buffer 80 60 d3 fb 54 6a da a0 4d 79 4f 07 d1 0a b3 a4 52 5a 49 50 9c 56 ce 2e a9 54 ee 98 63 30 1a 48>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 68 a2 0b 16 f4 f7 70 78 1b 91 22 1c fa 10 a4 c0 48 4f 33 ed ec 47 6b 05 5c 20 50 d3 34 55 99 48>,
+    previousCounter: 0,
+    rootKey: <Buffer b1 6c 4b 73 4a bd 80 f1 a8 38 fa dd e3 d6 68 b0 3a 50 ab 45 fb b4 47 33 fa d5 1d 09 b4 0f 4b 2e>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 3b 5a d3 f4 e1 72 17 98 53 64 bd df 2b 6d b9 24 1c f1 e7 7f 30 89 63 38 29 a2 b9 dd 86 ae 6e 2a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523262,
+    created: 1791311523262,
+    remoteIdentityKey: <Buffer 05 6c 8e 41 35 0f d0 bf c4 f0 df 3b 68 61 c0 72 4b 3e fe c8 7b f5 8d 79 0b ec e9 ff 37 5b 84 23 7e>
+  },
+  pendingPreKey: {
+    signedKeyId: 11277989,
+    baseKey: <Buffer 05 3b 5a d3 f4 e1 72 17 98 53 64 bd df 2b 6d b9 24 1c f1 e7 7f 30 89 63 38 29 a2 b9 dd 86 ae 6e 2a>,
+    preKeyId: 12225457
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    BeXJSL70aSYCE1P2wUDEFH9QtxDL4XdHWEJjZwcq5KRW: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1798076242,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 e5 c9 48 be f4 69 26 02 13 53 f6 c1 40 c4 14 7f 50 b7 10 cb e1 77 47 58 42 63 67 07 2a e4 a4 56>,
+      privKey: <Buffer 38 08 f6 82 ef 61 34 75 c5 a8 40 df ed d7 b6 66 e1 34 87 0a 45 23 f5 48 a4 2e 15 7d e5 cd 56 43>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 aa 99 be ad 47 e0 00 a1 b3 bd 60 ef e8 99 e2 0c ca 60 8b 7c dd 81 a5 21 e9 27 93 86 61 31 5e 2a>,
+    previousCounter: 0,
+    rootKey: <Buffer 36 bd 69 6f 5c 67 92 37 e1 16 4b 03 43 0e 57 98 01 3d 9a 2f 48 97 3c 71 12 7a 92 a7 0b 24 48 79>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 e4 ee 5d cc f3 72 4b 2f 6c 96 72 79 ec 0e b9 23 5a f2 c1 28 df 75 41 7d 3e 50 a1 ca e1 cf e7 2d>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1791311523273,
+    created: 1791311523273,
+    remoteIdentityKey: <Buffer 05 ec 91 9b 5b a2 eb 34 ac 5b 99 08 97 38 0c aa 7b 79 16 64 4b fe 6e e9 8f 6f 70 5a 43 ed 9c 05 0a>
+  },
+  pendingPreKey: {
+    signedKeyId: 16306212,
+    baseKey: <Buffer 05 e4 ee 5d cc f3 72 4b 2f 6c 96 72 79 ec 0e b9 23 5a f2 c1 28 df 75 41 7d 3e 50 a1 ca e1 cf e7 2d>,
+    preKeyId: 8382118
+  }
+}
+Decrypted message with closed session.
+
+──────────────────────────────────────────────────
+ ⚠️ SECURITY ALERT (440) 
+ Unknown party attempting to access session file.
+ Bot is preventing access.
+ If not you, please revoke session immediately.
+──────────────────────────────────────────────────
+
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
+[raqib] getUSyncDevices: Connection Closed
